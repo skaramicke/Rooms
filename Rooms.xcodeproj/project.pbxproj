@@ -14,7 +14,6 @@
 		DFFDA07919EC549A00CEE887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07819EC549A00CEE887 /* Images.xcassets */; };
 		DFFDA07C19EC549A00CEE887 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07A19EC549A00CEE887 /* MainMenu.xib */; };
 		DFFDA08819EC549B00CEE887 /* RoomsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA08719EC549B00CEE887 /* RoomsTests.m */; };
-		DFFDA09219EC55F500CEE887 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA09119EC55F500CEE887 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		DFFDA08119EC549A00CEE887 /* RoomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFDA08619EC549B00CEE887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFFDA08719EC549B00CEE887 /* RoomsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomsTests.m; sourceTree = "<group>"; };
-		DFFDA09119EC55F500CEE887 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 		DFFDA06019EC549A00CEE887 = {
 			isa = PBXGroup;
 			children = (
-				DFFDA09119EC55F500CEE887 /* README.md */,
 				DFFDA06B19EC549A00CEE887 /* Rooms */,
 				DFFDA08419EC549B00CEE887 /* RoomsTests */,
 				DFFDA06A19EC549A00CEE887 /* Products */,
@@ -224,7 +221,6 @@
 			files = (
 				DFFDA07219EC549A00CEE887 /* AppDelegate.m in Sources */,
 				DFFDA07519EC549A00CEE887 /* GameScene.m in Sources */,
-				DFFDA09219EC55F500CEE887 /* README.md in Sources */,
 				DFFDA06F19EC549A00CEE887 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
