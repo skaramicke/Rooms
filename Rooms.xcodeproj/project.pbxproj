@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFFDA06F19EC549A00CEE887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA06E19EC549A00CEE887 /* main.m */; };
+		DFFDA07219EC549A00CEE887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA07119EC549A00CEE887 /* AppDelegate.m */; };
+		DFFDA07519EC549A00CEE887 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA07419EC549A00CEE887 /* GameScene.m */; };
+		DFFDA07719EC549A00CEE887 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07619EC549A00CEE887 /* GameScene.sks */; };
+		DFFDA07919EC549A00CEE887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07819EC549A00CEE887 /* Images.xcassets */; };
+		DFFDA07C19EC549A00CEE887 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07A19EC549A00CEE887 /* MainMenu.xib */; };
+		DFFDA08819EC549B00CEE887 /* RoomsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA08719EC549B00CEE887 /* RoomsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFFDA08219EC549B00CEE887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFDA06119EC549A00CEE887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFDA06819EC549A00CEE887;
+			remoteInfo = Rooms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFFDA06919EC549A00CEE887 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFDA06D19EC549A00CEE887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFDA06E19EC549A00CEE887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFFDA07019EC549A00CEE887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFFDA07119EC549A00CEE887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFFDA07319EC549A00CEE887 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DFFDA07419EC549A00CEE887 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DFFDA07619EC549A00CEE887 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DFFDA07819EC549A00CEE887 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFFDA07B19EC549A00CEE887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFFDA08119EC549A00CEE887 /* RoomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFDA08619EC549B00CEE887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFDA08719EC549B00CEE887 /* RoomsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFDA06619EC549A00CEE887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFDA07E19EC549A00CEE887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFFDA06019EC549A00CEE887 = {
+			isa = PBXGroup;
+			children = (
+				DFFDA06B19EC549A00CEE887 /* Rooms */,
+				DFFDA08419EC549B00CEE887 /* RoomsTests */,
+				DFFDA06A19EC549A00CEE887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFDA06A19EC549A00CEE887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA06919EC549A00CEE887 /* Rooms.app */,
+				DFFDA08119EC549A00CEE887 /* RoomsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFDA06B19EC549A00CEE887 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA07019EC549A00CEE887 /* AppDelegate.h */,
+				DFFDA07119EC549A00CEE887 /* AppDelegate.m */,
+				DFFDA07319EC549A00CEE887 /* GameScene.h */,
+				DFFDA07419EC549A00CEE887 /* GameScene.m */,
+				DFFDA07619EC549A00CEE887 /* GameScene.sks */,
+				DFFDA07819EC549A00CEE887 /* Images.xcassets */,
+				DFFDA07A19EC549A00CEE887 /* MainMenu.xib */,
+				DFFDA06C19EC549A00CEE887 /* Supporting Files */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		DFFDA06C19EC549A00CEE887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA06D19EC549A00CEE887 /* Info.plist */,
+				DFFDA06E19EC549A00CEE887 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFDA08419EC549B00CEE887 /* RoomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA08719EC549B00CEE887 /* RoomsTests.m */,
+				DFFDA08519EC549B00CEE887 /* Supporting Files */,
+			);
+			path = RoomsTests;
+			sourceTree = "<group>";
+		};
+		DFFDA08519EC549B00CEE887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA08619EC549B00CEE887 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFDA06819EC549A00CEE887 /* Rooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFDA08B19EC549B00CEE887 /* Build configuration list for PBXNativeTarget "Rooms" */;
+			buildPhases = (
+				DFFDA06519EC549A00CEE887 /* Sources */,
+				DFFDA06619EC549A00CEE887 /* Frameworks */,
+				DFFDA06719EC549A00CEE887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rooms;
+			productName = Rooms;
+			productReference = DFFDA06919EC549A00CEE887 /* Rooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFFDA08019EC549A00CEE887 /* RoomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFDA08E19EC549B00CEE887 /* Build configuration list for PBXNativeTarget "RoomsTests" */;
+			buildPhases = (
+				DFFDA07D19EC549A00CEE887 /* Sources */,
+				DFFDA07E19EC549A00CEE887 /* Frameworks */,
+				DFFDA07F19EC549A00CEE887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFDA08319EC549B00CEE887 /* PBXTargetDependency */,
+			);
+			name = RoomsTests;
+			productName = RoomsTests;
+			productReference = DFFDA08119EC549A00CEE887 /* RoomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFDA06119EC549A00CEE887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mikael Grön";
+				TargetAttributes = {
+					DFFDA06819EC549A00CEE887 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DFFDA08019EC549A00CEE887 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DFFDA06819EC549A00CEE887;
+					};
+				};
+			};
+			buildConfigurationList = DFFDA06419EC549A00CEE887 /* Build configuration list for PBXProject "Rooms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFDA06019EC549A00CEE887;
+			productRefGroup = DFFDA06A19EC549A00CEE887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFDA06819EC549A00CEE887 /* Rooms */,
+				DFFDA08019EC549A00CEE887 /* RoomsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFDA06719EC549A00CEE887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFDA07719EC549A00CEE887 /* GameScene.sks in Resources */,
+				DFFDA07919EC549A00CEE887 /* Images.xcassets in Resources */,
+				DFFDA07C19EC549A00CEE887 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFDA07F19EC549A00CEE887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFDA06519EC549A00CEE887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFDA07219EC549A00CEE887 /* AppDelegate.m in Sources */,
+				DFFDA07519EC549A00CEE887 /* GameScene.m in Sources */,
+				DFFDA06F19EC549A00CEE887 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFDA07D19EC549A00CEE887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFDA08819EC549B00CEE887 /* RoomsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFFDA08319EC549B00CEE887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFDA06819EC549A00CEE887 /* Rooms */;
+			targetProxy = DFFDA08219EC549B00CEE887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFFDA07A19EC549A00CEE887 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFDA07B19EC549A00CEE887 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFDA08919EC549B00CEE887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFFDA08A19EC549B00CEE887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFFDA08C19EC549B00CEE887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Rooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFFDA08D19EC549B00CEE887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Rooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFFDA08F19EC549B00CEE887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rooms.app/Contents/MacOS/Rooms";
+			};
+			name = Debug;
+		};
+		DFFDA09019EC549B00CEE887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rooms.app/Contents/MacOS/Rooms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFDA06419EC549A00CEE887 /* Build configuration list for PBXProject "Rooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFDA08919EC549B00CEE887 /* Debug */,
+				DFFDA08A19EC549B00CEE887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFDA08B19EC549B00CEE887 /* Build configuration list for PBXNativeTarget "Rooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFDA08C19EC549B00CEE887 /* Debug */,
+				DFFDA08D19EC549B00CEE887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFFDA08E19EC549B00CEE887 /* Build configuration list for PBXNativeTarget "RoomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFDA08F19EC549B00CEE887 /* Debug */,
+				DFFDA09019EC549B00CEE887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFDA06119EC549A00CEE887 /* Project object */;
+}
