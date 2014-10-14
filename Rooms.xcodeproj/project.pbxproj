@@ -14,6 +14,10 @@
 		DFFDA07919EC549A00CEE887 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07819EC549A00CEE887 /* Images.xcassets */; };
 		DFFDA07C19EC549A00CEE887 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA07A19EC549A00CEE887 /* MainMenu.xib */; };
 		DFFDA08819EC549B00CEE887 /* RoomsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA08719EC549B00CEE887 /* RoomsTests.m */; };
+		DFFDA09E19ECF61400CEE887 /* player-redpants.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA09D19ECF61400CEE887 /* player-redpants.atlas */; };
+		DFFDA09F19ECF61400CEE887 /* player-redpants.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DFFDA09D19ECF61400CEE887 /* player-redpants.atlas */; };
+		DFFDA0A219ECF62F00CEE887 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA0A119ECF62F00CEE887 /* Player.m */; };
+		DFFDA0A319ECF62F00CEE887 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFDA0A119ECF62F00CEE887 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,9 @@
 		DFFDA08119EC549A00CEE887 /* RoomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFDA08619EC549B00CEE887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFFDA08719EC549B00CEE887 /* RoomsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomsTests.m; sourceTree = "<group>"; };
+		DFFDA09D19ECF61400CEE887 /* player-redpants.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = "player-redpants.atlas"; path = "Atlases/player-redpants.atlas"; sourceTree = "<group>"; };
+		DFFDA0A019ECF62F00CEE887 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Characters/Player.h; sourceTree = "<group>"; };
+		DFFDA0A119ECF62F00CEE887 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Characters/Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,8 @@
 		DFFDA06B19EC549A00CEE887 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				DFFDA09419ECF15000CEE887 /* walking dude */,
+				DFFDA09319ECF02100CEE887 /* rooms */,
 				DFFDA07019EC549A00CEE887 /* AppDelegate.h */,
 				DFFDA07119EC549A00CEE887 /* AppDelegate.m */,
 				DFFDA07319EC549A00CEE887 /* GameScene.h */,
@@ -117,6 +126,23 @@
 				DFFDA08619EC549B00CEE887 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFDA09319ECF02100CEE887 /* rooms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = rooms;
+			sourceTree = "<group>";
+		};
+		DFFDA09419ECF15000CEE887 /* walking dude */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDA09D19ECF61400CEE887 /* player-redpants.atlas */,
+				DFFDA0A019ECF62F00CEE887 /* Player.h */,
+				DFFDA0A119ECF62F00CEE887 /* Player.m */,
+			);
+			name = "walking dude";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +228,7 @@
 				DFFDA07719EC549A00CEE887 /* GameScene.sks in Resources */,
 				DFFDA07919EC549A00CEE887 /* Images.xcassets in Resources */,
 				DFFDA07C19EC549A00CEE887 /* MainMenu.xib in Resources */,
+				DFFDA09E19ECF61400CEE887 /* player-redpants.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFDA09F19ECF61400CEE887 /* player-redpants.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFDA0A219ECF62F00CEE887 /* Player.m in Sources */,
 				DFFDA07219EC549A00CEE887 /* AppDelegate.m in Sources */,
 				DFFDA07519EC549A00CEE887 /* GameScene.m in Sources */,
 				DFFDA06F19EC549A00CEE887 /* main.m in Sources */,
@@ -229,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFDA0A319ECF62F00CEE887 /* Player.m in Sources */,
 				DFFDA08819EC549B00CEE887 /* RoomsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
